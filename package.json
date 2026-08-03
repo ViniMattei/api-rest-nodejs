@@ -1,0 +1,39 @@
+{
+  "name": "api-rest-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint . --ext .ts --fix",
+    "knex": "node --no-warnings --import tsx ./node_modules/knex/bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniMattei/api-rest-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ViniMattei/api-rest-nodejs/issues"
+  },
+  "homepage": "https://github.com/ViniMattei/api-rest-nodejs#readme",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^26.1.1",
+    "eslint": "^8.57.1",
+    "tsx": "^4.23.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^11.1.2",
+    "dotenv": "^17.4.2",
+    "fastify": "^5.10.0",
+    "knex": "^3.3.0",
+    "sqlite3": "^6.0.1",
+    "zod": "^4.4.3"
+  }
+}
